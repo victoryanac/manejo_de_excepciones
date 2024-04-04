@@ -12,3 +12,4 @@ class DimensionError(Exception):
         if self.dimension is None and self.maximo is None:
             return super().__str__()
         return f"{self.mensaje} - Dimension recibida: {self.dimension}, Máximo permitido: {self.maximo}"
+
